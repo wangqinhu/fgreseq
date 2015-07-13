@@ -24,6 +24,9 @@ if [ -d data/reseq/$dir ]; then
 	# Sort bam
 	samtools sort data/bam/$dir.bam data/bam/$dir.sorted
 
+	# Call var
+	samtools mpileup -uf data/refseq/FG.RR.27.genome.fa data/bam/$dir.sorted.bam | bcftools call -cv -O v - > data/vcf/$dir.vcf
+
 	# Call snp
 	samtools mpileup -uf data/refseq/FG.RR.27.genome.fa data/bam/$dir.sorted.bam | bcftools call -cv -V indels -O v - > data/vcf/$dir.snps.vcf
 
