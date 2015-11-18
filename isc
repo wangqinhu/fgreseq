@@ -1,0 +1,34 @@
+#!/usr/bin/env perl 
+
+use strict;
+use warnings;
+
+my $id1 = $ARGV[0] || "id1.txt";
+my $id2 = $ARGV[1] || "id2.txt";
+
+my %list1 = ();
+my %list2 = ();
+
+open (ID1, $id1) or die "$!\n";
+while (<ID1>) {
+	chomp;
+	s/\s//g;
+	if (/(\S+)/) {
+		$list1{$1} = 1;
+	}
+}
+close ID1;
+
+open (ID2, $id2) or die "$!\n";
+while (<ID2>) {
+	chomp;
+	my @w = split /\s/;
+	$list2{$w[0]} = $_;
+}
+close ID2;
+
+foreach my $id (sort keys %list1) {
+	if (exists $list2{$id}) {
+		print $list2{$id}, "\n";
+	}
+}
