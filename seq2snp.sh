@@ -9,7 +9,7 @@ mkdir -p data/sam
 mkdir -p data/bam
 mkdir -p data/vcf
 
-reseq=("HN9-1" "HN-Z6" "YL-1" "GJ33" "FJ1-38")
+reseq=("HN9-1" "HN-Z6" "YL-1" "CS3005") 
 
 dir=${reseq[$(expr $SGE_TASK_ID - 1)]}
 

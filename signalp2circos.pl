@@ -7,7 +7,7 @@ my $pep = $ARGV[0] || "data/refseq/FG.RR.27.pep.all.fa";
 my $signalp_out = $ARGV[1] || "data/signalp/signalp.out";
 my $gff = $ARGV[2] || "data/refseq/FG.RR.27.gff3";
 my $circos = $ARGV[3] || "data/circos/signalp.txt";
-my $id = $ARGV[4] || "id.txt";
+my $id = $ARGV[4] || "id.signalp";
 
 # predict pep with siganlp
 system("signalp -t euk -f short -m hmm $pep > $signalp_out");
@@ -45,4 +45,4 @@ while (<GFF>) {
 close GFF;
 close OUT;
 
-unlink $id;
+#unlink $id;
