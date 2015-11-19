@@ -12,5 +12,6 @@ id=${reseq[$(expr $SGE_TASK_ID - 1)]}
 # Covert vcf files to density files
 perl ./select_homo.pl data/vcf/$id.vcf > data/vcf_filtered/$id.vcf
 perl ./select_homo.pl data/vcf/$id.snps.vcf > data/vcf_filtered/$id.snps.vcf
+perl ./select_homo.pl data/vcf/$id.indels.vcf > data/vcf_filtered/$id.indels.vcf
 
 
