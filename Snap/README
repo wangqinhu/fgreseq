@@ -1,0 +1,324 @@
+#SNAP.pl (Synonymous Nonsynonymous Analysis Program)
+#Written by: Bette Korber, T10 MS K710, LANL, Los Alamos, NM 87545
+#(505) 665-4453, btk@t10.lanl.gov
+
+#You should be familiar with the paper by Nei and Gojobori, Mol Biol
+#Evolution, 3:418-426 (1986) before using this program. 
+
+#This code is written in perl and has been run on UNIX operating
+#systems (SUN and LINUX).  It should also work on DOS and MAC)
+
+USAGE: SNAP.pl filename
+
+INPUT:
+Sequences should be provided with codons aligned, in caps, and in frame.  
+
+They should be provided in table format:
+
+Seq1	ACTGCCTTTGGC...
+Seq2    ACTGCCTATGGG... 
+
+The first field is the sequence name, the second field the sequence,
+then return to a new line for the second sequence.
+
+Single or double insertions will throw the sequence out of frame,
+and care must be taken to keep codons intact.
+
+A single insertion could be treated in the following way to keep
+the codons ACT and GGC intact:
+
+ACTTGCC ==> ACTT--GCC
+ACTGGC  ==> ACT---GCC
+
+The letter N should be used to represent ambiguous bases.
+A dash, '-' for insertions, Only A C G T N - are allowed.
+
+TO DO:
+Incorporate a better correction than Jukes-Cantor into the algorithm.
+
+OUTPUT:
+This program calculates the number of synonymous vs. non-synonymous
+base substitutions as described in Nei and Gojobori for all pairwise
+comparisons of sequences in an alignment.  The number of synonymous and
+non-synonymous codon changes are counted, as well as the number of
+potential synonymous and non-synonymous changes when comparing two
+sequences.  Ambiguous codons or codons with insertions are excluded
+from the tally of compared codons. The overall sequence distances are 
+calculated as well as a codon by codon summary.
+
+The pid (process ID) is appended to the output filename, i.e., "outputfilename.[pid]".
+
+The examples below are based on input
+of 4 HIV protease sequences: 92UG037, RF, 92BRO25, ELI  
+
+_______________________________________________________
+SUMMARY OF THE SYNONYMOUS AND NONSYNONYMOUS INFORMATION
+_______________________________________________________
+
+summary.pid:
+
+Compare Sequences_names           Sd      Sn       S       N      ps      pn      ds      dn   ds/dn
+0   1   92UG037   RF           18.00    9.00   68.50  228.50    0.26    0.04    0.32    0.04    8.00
+0   2   92UG037   92BRO25      22.50   10.50   69.00  228.00    0.33    0.05    0.43    0.05    9.00
+0   3   92UG037   ELI          17.00   10.00   68.50  228.50    0.25    0.04    0.30    0.05    6.68
+1   2   RF        92BRO25      20.50   11.50   68.50  228.50    0.30    0.05    0.38    0.05    7.33
+1   3   RF        ELI          11.00    5.00   68.00  229.00    0.16    0.02    0.18    0.02    8.22
+2   3   92BRO25   ELI          18.50   10.50   68.50  228.50    0.27    0.05    0.33    0.05    7.06
+Averages of all pairwise comparisons: ds =  0.62, dn =  0.11, ds/dn =  6.60
+Averages of the first sequence compared to others: ds =  0.49, dn =  0.09, ds/dn =  7.09
+
+Compare: Lists the two sequences compared, starting with 0 (4 sequences are seqs 0-3)
+Sequences_names: The names of the two sequences being compared.
+Sd: The number of observed synonymous substitutions
+Sn: The number of observed non-synonymous substitutions
+S: The number of potential synonymous substitutions 
+    (the average for the two compared sequences)
+N: The number of potential non-synonymous substitutions 
+   (the average for the two compared sequences)
+ps: The proportion of observed synonymous substitutions: Sd/S
+pn: The proportion of observed non-synonymous substitutions: Sd/S
+ds: The Jukes-Cantor correction for multiple hits of ps
+dn: The Jukes-Cantor correction for multiple hits of pn
+ds/dn: The ratio of synonymous to non-synonymous substitutions
+
+NOTE1: An example of how Sd and Sn is determined for a single codon:
+
+Imagine you have TTA in one sequence, and CTT in the other.
+Two bases are different. TTA encodes Leu, as does CTT.
+If you assume that the bases have changed one at a time,
+there are two paths:
+
+TTA (L)  --> CTA (L) --> CTT (L) or
+TTA (L)  --> TTT (F) --> CTT (L).
+
+From first path, count = .5syn + .5syn
+From second path, count =  .5nonsyn + .5nonsyn
+
+So this two base change would be 1 synonymous, 1 non-synonymous.
+
+NOTE2: Some thoughts on statistical comparisons of the output:
+
+One must be wary when doing typical statistical analysis of these
+values.  One thing I have found to be very common are distributions of
+values that are NOT close to a Gaussian distribution, so you should
+either check to see if you have a Gaussian distribution, or default to
+the use of non-parametric statistics, like a Wilcoxon rank sum test.
+
+Therefore the averages given at the bottom are only meant as a crude guide.
+
+Also, if one uses the full column of values for all pairwise
+comparisons (say all values of dn for one set, compared to all values
+for another set) there is a non-independence of points issue to be
+considered. An alternative is the use of a sequence like a consensus or
+a best estimate of an ancestral sequence as the first sequence in the
+alignment, and then just use the comparison of the first sequence to all
+others rather than all pairwise comparisons. Sequence 0 is the first in
+the set, so that would be all lines that start with 0. 
+
+NOTE3: NA and mutational saturation.
+
+If ps or pn has a value >= .75, saturation has been reached and a
+Jukes-Cantor transformation cannot be done, so the value of NA
+is returned. 
+
+If either ds or dn is NA or 0, the ds/dn ratio is not calculated.
+
+_______________________
+PHYLOGENETIC TREE INPUT
+_______________________
+
+Two distance matrices that are compatible input for PHYLIP's neighbor
+program are created, based on either the ds or dn values. A 5 sequence
+example is shown below, for dn values:
+
+dndist.17985 (a PHYLIP neighbor infile):
+
+  5
+92UG037       0.0000  0.0400  0.0500  0.0500  0.2000
+RF            0.0400  0.0000  0.0500  0.0200  0.2200
+92BRO25       0.0500  0.0500  0.0000  0.0500  0.2200
+ELI           0.0500  0.0200  0.0500  0.0000  0.2200
+ANT70         0.2000  0.2200  0.2200  0.2200  0.000
+
+The PHYLIP neighbor output:
+
+  +92UG037
+  !
+  !     +RF
+  !  +--1
+--3--2  +ELI
+  !  !
+  !  +92BRO25
+  !
+  +----------ANT70
+
+Between        And            Length
+-------        ---            ------
+   3          92UG037           0.01375
+   3             2              0.00875
+   2             1              0.01375
+   1          RF                0.00833
+   1          ELI               0.01167
+   2          92BRO25           0.02625
+   3          ANT70             0.18625
+
+These are examples of neighbor joining trees that can be produced using the
+"dsdist.[pid]" and "dndist.[pid]" input files:
+
+ds.treefile.ps: Synonymous Substitution Tree For Protease.
+
+dn.treefile.ps: Nonsynonymous Substitution Tree For Protease.
+_____________________________
+BACKGROUND ABOUT THE DATA SET
+_____________________________
+
+background.pid for the four sequence example used in summary.pid:
+
+The input file has 4 sequences
+Sequence Length: 297
+Compare Sequences_names     Codons  Compared Ambiguous Indels     Ns
+0   1   92UG037   RF          99        99        0        0      0
+0   2   92UG037   92BRO25     99        99        0        0      0
+0   3   92UG037   ELI         99        99        0        0      0
+1   2   RF        92BRO25     99        99        0        0      0
+1   3   RF        ELI         99        99        0        0      0
+2   3   92BRO25   ELI         99        99        0        0      0
+
+Codons: Total number of codons in the input file (number of bases/3)
+Compared: (Codons - Ambiguous)
+Ambiguous: Codons that contain either dashes "-" for indels or N's.
+           (Indel + N's) = Ambiguous
+Indels: Codons that contain dashes "-" for indels
+Ns: Codons that contain N's.
+
+NOTE: There were no indels or Ns in the protease alignment file. 
+
+_____________________
+ALL CODON COMPARISONS
+_____________________
+
+codons.pid
+For every codon in each pairwise comparison, it is identified
+as "identity" if there is no change, synon if the nucleotides
+change but the encoded amino acid does not, nonsyn if the
+nucleotides change as well as the encoded amino acid, indel
+if there is an insertion or deletion, ambiguous if there is
+an N. Indel supersedes N if both are present.
+
+The Nei and Gojobori syn/non-syn value for each codon is recorded.
+
+This is comparison 0 x 1: 92UG037 U455
+Codon# class     1   2   aa1 aa2  syn     non
+1      identity  CCT CCT P   P
+2      identity  CAA CAA Q   Q
+3      identity  ATC ATC I   I
+4      identity  ACT ACT T   T
+5      identity  CTT CTT L   L
+6      identity  TGG TGG W   W
+7      identity  CAA CAA Q   Q
+8      identity  CGA CGA R   R
+9      synon     CCT CCC P   P    1.00    0.00
+10     identity  CTT CTT L   L
+11     identity  GTC GTC V   V
+12     identity  ACA ACA T   T
+13     identity  GTA GTA V   V
+14     synon     AAG AAA K   K    1.00    0.00
+15     identity  ATA ATA I   I
+16     synon     GGG GGA G   G    1.00    0.00
+17     identity  GGA GGA G   G
+18     identity  CAG CAG Q   Q
+19     synon     CTA CTG L   L    1.00    0.00
+20     nonsynon  AAA ATA K   I    0.00    1.00
+21     nonsynon  AAA GAA K   E    0.00    1.00 ...
+
+The codons.pid file is input for the perl script codons-xyplot.pl.
+
+USAGE: codons-xyplot.pl codons.pid
+
+This will create an output called "codon.data".  
+
+"codon.xy" is an input file for the program xyplot. 
+"codon.xy" includes the file "codon.data" and makes an xyplot of this data if 
+the program xyplot is available.
+
+USAGE: xyplot -ps codon.xy > codon.ps
+
+The information in codon.data is the average behavior of each codon for
+all pairwise comparisons for indels, syn, and nonsyn mutations.  In
+very variable positions, the value can be over 1, because there are 3
+positions in each codon, and more than one change can occur.
+
+#k The number of codons is: 99
+#k The average behavior for 153 comparisons:
+#k             Cumulative             Per Codon
+#k         __________________    __________________
+#kcodon    indel  syn  nonsyn    indel  syn  nonsyn  aa
+   1       0.00   0.00   0.00    0.00   0.00   0.00  P
+   2       0.00   0.47   0.00    0.00   0.47   0.00  Q
+   3       0.00   0.47   0.00    0.00   0.00   0.00  I
+   4       0.00   0.47   0.21    0.00   0.00   0.21  P
+   5       0.00   0.47   0.21    0.00   0.00   0.00  L
+   6       0.00   0.47   0.32    0.00   0.00   0.11  W
+   7       0.00   0.73   0.74    0.00   0.25   0.42  D
+   8       0.00   0.93   0.74    0.00   0.21   0.00  R
+   9       0.00   1.32   0.74    0.00   0.39   0.00  P
+  10       0.00   1.92   1.03    0.00   0.60   0.29  I
+  11       0.00   2.22   1.03    0.00   0.29   0.00  V ...
+
+------------------------------------------------------------------------------------
+
+These are some examples of xyplots for synonymous and nonsynonymous changes for the protease region
+of HIV-1 pol:
+
+protease.xy: Cumulative Synonymous and Nonsynonymous substitutions in protease.
+
+protease2.xy: Codon-by-codon Synonymous and Nonsynonymous substitutions in protease.
+
+---------------------------------------------------------------------------------------
+SATISTICS:
+USAGE: SNAPstats codons.[pid]
+---------------------------------------------------------------------------------------
+ 
+The program SNAPstats will yield the variance and standard deviation for the average 
+ds, dn, ps and pn values for the data set, based on the strategy described by Ota and Nei.
+
+To compile:
+gcc -o SNAPstats -lm SNAPstats.c
+
+Please read and cite this paper if you use this program: 
+
+Ota,T., Nei, M.
+"Variance and covariances of the numbers of synonymous and nonsynonymous substitutions per site."
+Mol Biol Evol 11(4): 613-9 (1994)
+
+(I am grateful to Dr. Yumi Yamaguchi-Kabata of Kyoto University for
+graciously encouraging us to add this statistic to our site).
+ 
+Other programs of interest may be found at Dr. Yasuo Ina's ftp site:
+ftp.dna.affrc.go.jp 
+- /pub/unix/syn/new1(Ina1) 
+- /pub/unix/syn/new2(Ina2)
+ 
+------------------------------------------------------------------------------------
+FUTURE PLANS:
+Add a better model of evolutionary distance.
+------------------------------------------------------------------------------------
+
+*******************************************************************************
+NOTICE:
+6/15/98
+
+Unless otherwise indicated, this information, consisting of source code,
+documentation, and executable programs, has been authored by an employee or
+employees of the University of California under LACC # ______ , operator of the
+Los Alamos National Laboratory under Contract No. W-7405-ENG-36 with the U.S.
+Department of Energy. The U.S. Government has rights to use, reproduce, and
+distribute this information. The public may copy and use this information
+without charge, make derivative works, distribute, and publicly display
+provided that this Notice and any statement of authorship are reproduced on all
+copies.  However, the public may not incorporate this information in any
+commercial or proprietary product.  Neither the Government nor the University
+makes any warranty, express or implied, or assumes any liability or
+responsibility for the use of this information.
+*******************************************************************************
+

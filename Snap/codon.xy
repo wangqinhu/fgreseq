@@ -1,0 +1,27 @@
+#lt "Cumulative Behavior, Codon by codon"
+#lty ^
+#lw 2
+#m 00
+5 23 "indels"
+#m 30
+5 20.5 "nonsyn"
+#m 10
+5 18 "syn
+
+
+#k indels
+#d xy
+#m 01
+#i codon.data
+
+#k nonsynonymous
+#d x..y
+#m 31
+#i codon.data
+#k
+
+#k synonymous
+#d x.y
+#m 11 
+#i codon.data
+
