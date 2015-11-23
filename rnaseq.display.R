@@ -14,7 +14,6 @@ legend("topright", c("fast","slow", "ns"), pch = 20, bg ="lightgreen", col = c("
 mtext("A", adj=0.005, line=-1.8, outer=T, cex=1.3);
 
 par(mar=c(4,4.5,1.2,1.0))
-library(RColorBrewer)
 mc <- brewer.pal(6,"Blues")
 mc[3]<-c("pink")
 mc[4]<-c("red")
@@ -25,10 +24,10 @@ mc[4]<-c("red")
 #up>10	175	655
 #down>2	1018	574
 #down>10  412	490
-fr<-matrix(c(1251,4295,920,175,1018,412,2060,1821,492,655,574,490),6)
-rownames(fr)<-c("nd", "ns", "up>2", "up>10", "down>2", "down>10")
+fr<-matrix(c(1251+4295,920,175,1018,412,2060+1821,492,655,574,490),5)
+rownames(fr)<-c("ns", "up>2", "up>10", "down>2", "down>10")
 colnames(fr)<-c("slow","fast")
-barplot(prop.table(fr,2),xlim=c(0,4.4),ylab="frequency", col=mc)
+barplot(prop.table(fr,2),xlim=c(0,4.4),ylab="frequency", col=mc[2:6])
 legend("right",rev(row.names(fr)), pch=20,col=rev(mc))
 mtext("B", adj=0.42, line=-1.8, outer=T, cex=1.3)
 
