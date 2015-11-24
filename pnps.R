@@ -1,23 +1,64 @@
 library(squash)
 x<-read.table("data/pnps/pnps.tsv")
 
-pdf("data/pnps/positive2.pdf", 6.8, 4.5)
-layout(matrix(c(1,2),1,2,byrow = TRUE), c(1.8,1), c(1.8,1), respect = T)
+pdf("data/pnps/postive.pdf", 7.4, 2.8)
+layout(matrix(c(1,2,3),1,3,byrow = TRUE), c(1.0,1.3,0.8), c(1.2,0.8,1.2),respect = T)
 
+#############
+# postive 1 #
+#############
+
+xl<-dim(x)
+# pn - ps
+pn_ps<-rep(NA, xl[1]*10)
+dim(pn_ps)<-c(xl[1],10)
+rownames(pn_ps)<-x[,1]
+# marker
+psm<-rep(NA, xl[1])
+dim(psm)<-c(xl[1],1)
+rownames(psm)<-x[,1]
+for (i in seq(1,xl[1])) {
+  for (j in seq(1,10)) {
+    pn_ps[i,j] <- x[i,j*4-2] - x[i,j*4-1]
+    if (pn_ps[i,j] > 0) {
+      psm[i]<-TRUE
+    } 
+  }
+}
+write.table(pn_ps, "data/pnps/postive.txt", quote = F, row.names = T,col.names = F)
+write.table(rownames(psm)[ps>0], "data/pnps/postive.temp.txt", quote = F, row.names = F,col.names = F)
+system("cat data/pnps/postive.temp.txt | grep 'FGRRES' | cut -f1 > data/pnps/postive1.id.txt && rm data/pnps/postive.temp.txt")
+system("./isc data/2speed/list.fast data/pnps/postive1.txt > data/pnps/postive1.fast")
+system("./isc data/2speed/list.slow data/pnps/postive1.txt > data/pnps/postive1.slow")
+system("./isc data/2speed/list.fast data/pnps/postive.txt > data/pnps/postive1.fast")
+system("./isc data/2speed/list.slow data/pnps/postive.txt > data/pnps/postive1.slow")
+
+par(mar=c(4.25,4,0.5,2))
+hist(pn_ps, breaks = 50,
+     col = c(rep("pink",33),rep("lightblue",21)),
+     main = "", xlab = "pN - pS",
+     xlim=c(-0.1,0.1))
+mtext("A", adj=0.018, line=-2.0, outer=T, cex=1.0)
+
+
+#############
+# postive 2 #
+#############
 pns<-c(0)
 pss<-c(0)
-for (i in seq(0,9)) {
-  pns<-pns+x[,i*4+2]
-  pss<-pss+x[,i*4+3]
+for (i in seq(1,10)) {
+  pns<-pns+x[,i*4-2]
+  pss<-pss+x[,i*4-1]
 }
 
 # plot all
-par(mar=c(5,4,0.5,1))
-hist2(log2(pss/10),log2(pns/10), key = hkey, key.args = list(stretch = 1), nx=100, xlim=c(-16,0), ylim=c(-16,0), xlab = "log2(pS)", ylab="log2(pN)", colFn = jet)
+par(mar=c(4.25,4,0.5,2))
+hist2(log2(pss/10),log2(pns/10), key = vkey, key.args = list(x=-1,y=-15.5,stretch = 1), nx=100, xlim=c(-16,0), ylim=c(-16,0), xlab = "log2(pS)", ylab="log2(pN)", colFn = jet)
 abline(a = 0, b = 1, col = 2)
 # get postive2
 postive2<-x[rownames(x)[pns>pss & pss>0],]
 write.table(postive2, "data/pnps/postive2.txt", quote = F, row.names = F,col.names = F)
+system("cat data/pnps/postive2.txt | cut -d ' ' -f 1 > data/pnps/postive2.id.txt")
 system("./isc data/2speed/list.fast data/pnps/postive2.txt > data/pnps/postive2.fast")
 system("./isc data/2speed/list.slow data/pnps/postive2.txt > data/pnps/postive2.slow")
 # plot postive2.slow
@@ -39,12 +80,14 @@ for (i in seq(0,9)) {
 }
 points(log2(ps_f/10),log2(pn_f/10),pch=20,cex=0.8,col="yellow")
 legend("topleft", c("fast","slow", "pN=pS"), pch = c(20,20,-1), lty=c(-1,-1,1), bg ="lightgreen", col = c("yellow", "purple", "red"))
-mtext("A", adj=0.005, line=-1.5, outer=T, cex=1.5)
+mtext("B", adj=0.335, line=-2.0, outer=T, cex=1.0)
 
-# boxplot pN
+##############
+# boxplot pH #
+##############
 y<-list(pn_s/10,pn_f/10)
 names(y)<-c("slow","fast")
-par(mar=c(5,4,0.5,1))
+par(mar=c(4.25,4,0.5,0))
 boxplot(y,col=c("purple","yellow"),ylab="pN")
-mtext("B", adj=0.66, line=-1.5, outer=T, cex=1.5)
+mtext("C", adj=0.75, line=-2.0, outer=T, cex=1.0)
 dev.off()
