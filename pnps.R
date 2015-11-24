@@ -83,7 +83,7 @@ legend("topleft", c("fast","slow", "pN=pS"), pch = c(20,20,-1), lty=c(-1,-1,1), 
 mtext("B", adj=0.335, line=-2.0, outer=T, cex=1.0)
 
 ##############
-# boxplot pH #
+# boxplot pN #
 ##############
 y<-list(pn_s/10,pn_f/10)
 names(y)<-c("slow","fast")
