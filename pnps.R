@@ -1,4 +1,6 @@
 library(squash)
+library(plotrix)
+
 x<-read.table("data/pnps/pnps.tsv")
 
 pdf("data/pnps/postive.pdf", 7.4, 2.8)
@@ -26,7 +28,7 @@ for (i in seq(1,xl[1])) {
   }
 }
 write.table(pn_ps, "data/pnps/postive.txt", quote = F, row.names = T,col.names = F)
-write.table(rownames(psm)[ps>0], "data/pnps/postive.temp.txt", quote = F, row.names = F,col.names = F)
+write.table(rownames(psm)[psm>0], "data/pnps/postive.temp.txt", quote = F, row.names = F,col.names = F)
 system("cat data/pnps/postive.temp.txt | grep 'FGRRES' | cut -f1 > data/pnps/postive1.id.txt && rm data/pnps/postive.temp.txt")
 system("./isc data/2speed/list.fast data/pnps/postive1.txt > data/pnps/postive1.fast")
 system("./isc data/2speed/list.slow data/pnps/postive1.txt > data/pnps/postive1.slow")
@@ -34,12 +36,26 @@ system("./isc data/2speed/list.fast data/pnps/postive.txt > data/pnps/postive1.f
 system("./isc data/2speed/list.slow data/pnps/postive.txt > data/pnps/postive1.slow")
 
 par(mar=c(4.25,4,0.5,2))
-hist(pn_ps, breaks = 50,
-     col = c(rep("pink",33),rep("lightblue",21)),
-     main = "", xlab = "pN - pS",
-     xlim=c(-0.1,0.1))
-mtext("A", adj=0.018, line=-2.0, outer=T, cex=1.0)
+z<-hist(pn_ps, breaks = 50, plot=F)
+xt<-z$breaks
+gap.barplot(z$density,
+            gap=c(25,114),
+            xlab="pN - pS",
+            ylab = "Density",
+            col = c(rep("lightblue",54), rep("red", 16)),
+            xtics = xt,
+            xlim = c(-0.1,0.1),
+            xaxt='n')
 
+axis(1,at=c(-0.1,0,0.1))
+axis(2,at=c(10,20,120))
+
+from<-25
+axis.break(2,from,breakcol="honeydew",style="gap")
+axis.break(2,from*(1+0.02),breakcol="black",style="zigzag")
+axis.break(4,from*(1+0.02),breakcol="black",style="zigzag")
+
+mtext("A", adj=0.018, line=-2.0, outer=T, cex=1.0)
 
 #############
 # postive 2 #
