@@ -1,5 +1,5 @@
-pdf("data/2speed/2speed.pdf", 7,2.5)
-layout(matrix(c(1:3),1,3,byrow = TRUE))
+pdf("data/2speed/2speed.pdf", 6, 6)
+layout(matrix(c(1:4),2,2,byrow = TRUE))
 state2col <- function(x) {
   col <- rep("black", length(x))
   for (i in 1:length(x)) {
@@ -27,7 +27,7 @@ Arrows(5.5, 0.085, 6.3, 0.12, arr.length = 0.2, segment = T, code = 1, arr.adj =
 text(11,0.63, expression(paste("slow: ", mu, " = 0.5,  ", sigma," = 0.3")))
 text(11,0.17, expression(paste("fast: ", mu, " = 4.8,  ", sigma," = 3.2")))
 
-mtext("A", adj=0.01, line=-2, outer=T)
+mtext("a", adj=0.01, line=-2, outer=T)
 
 ## decode with veterbi
 library (depmixS4)
@@ -39,6 +39,24 @@ state = posterior(fmsp)$state
 write.table(paste(vcf$V1, vcf$V2, vcf$V3, state),file="data/2speed/state.tsv", sep = "\t", row.names=FALSE, col.names=FALSE, quote=FALSE)
 write.table(paste(vcf$V1, vcf$V2, vcf$V3, state2col(state)),file="data/circos/data/state.txt", sep = "\t", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
+# classpro
+fast<-6092
+slow<-8072
+genome<-read.table("data/classpro/genome.tsv")
+g<-as.matrix(genome)
+g[1,]<-g[1,]/slow
+g[2,]<-g[2,]/fast
+par(mar=c(5,4.5,2,1))
+barplot(g,
+        beside = T,
+        col = c("purple","yellow"),
+        ylab = "Ratio of subgenome",
+        ylim = c(0,0.33)
+)
+legend("topright", box.col = "white", rownames(g), fill = c("purple","yellow"))
+mtext("b", adj=0.51, line=-2, outer=T);
+
+
 # gc interval
 system("./gc.interval.sh")
 fast<-read.table("data/gc/gc.fast.txt")
@@ -48,7 +66,7 @@ names(x)<-c("slow", "fast")
 par(mar=c(2.5,4.5,1,2))
 boxplot(x,ylim=c(40,60),col=c("purple","yellow"),ylab="GC content (%)")
 t.test(fast$V1,slow$V1, alternative = "less")$p.value
-mtext("B", adj=0.35, line=-2, outer=T)
+mtext("c", adj=0.01, line=-20, outer=T)
 
 # sp
 fast<-read.table("data/secretome/sp.fast.interval.txt")
@@ -67,7 +85,5 @@ mp<-barplot(x, col=mc, ylab="Ratio",xlim=c(0, 4.8))
 legend("right",rev(rownames(x)),pch=16, cex=1,col=rev(mc),title = "Interval")
 num<-c(sum(slow$V1),sum(fast$V1))
 text(mp, 1.05, num, xpd = TRUE)
-mtext("C", adj=0.689, line=-2, outer=T);
+mtext("d", adj=0.51, line=-20, outer=T);
 dev.off()
-
-
