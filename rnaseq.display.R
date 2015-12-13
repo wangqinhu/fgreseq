@@ -10,7 +10,7 @@ f<-read.table("data/rnaseq/fast.diff.tsv")
 points(f$logCPM,f$logFC,pch=20,cex=0.8, col="yellow")
 non<-read.table("data/rnaseq/no.diff.tsv")
 points(non$logCPM,non$logFC,pch=20,cex=0.8)
-legend("topright", c("fast","slow", "ns"), pch = 20, bg ="lightgreen", col = c("yellow", "purple", "black"))
+legend("topright", c("fast","slow", "ns"), pch = 20, bg ="lightgreen", col = c("yellow", "purple", "black"),cex=0.8)
 mtext("a", adj=0.020, line=-1.8, outer=T)
 
 library(RColorBrewer)
@@ -53,8 +53,8 @@ rnaseq<-read.table("data/classpro/rnaseq.tsv")
 r<-as.matrix(rnaseq)
 fast<-6092
 slow<-8072
-r[1,]<-r[1,]/fast
-r[2,]<-r[2,]/slow
+r[1,]<-r[1,]/slow
+r[2,]<-r[2,]/fast
 par(mar=c(3,5,1.0,1.0))
 barplot(prop.table(r,2),
         col = c("purple","yellow"),
