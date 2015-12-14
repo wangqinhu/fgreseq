@@ -10,6 +10,9 @@ my @seq3 = ();
 my @seq4 = ();
 my @seq5 = ();
 my @seq6 = ();
+my @seq7 = ();
+my @seq8 = ();
+
 
 while (<IN>) {
 	chomp;
@@ -20,6 +23,8 @@ while (<IN>) {
 	push @seq4, $w[5];
 	push @seq5, $w[6];
 	push @seq6, $w[7];
+	push @seq7, $w[8];
+	push @seq8, $w[9];
 }
 
 print ">PH-1\n";
@@ -34,6 +39,10 @@ print ">GZ3639\n";
 print_seq(@seq5);
 print ">CS3005\n";
 print_seq(@seq6);
+print ">FG1\n";
+print_seq(@seq7);
+print ">FG2\n";
+print_seq(@seq8);
 
 sub print_seq {
 
