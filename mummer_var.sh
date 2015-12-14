@@ -17,13 +17,13 @@ show-snps -T data/wgs/fg2.delta > data/wgs/fg2.snps
 # covert to vcf
 
 # vcf
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa data/wgs/fg1.snps > data/wgs/fg1.vcf
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa data/wgs/fg2.snps > data/wgs/fg2.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa data/wgs/fg1.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }' > data/wgs/fg1.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa data/wgs/fg2.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }' > data/wgs/fg2.vcf
 
 # snps
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t SNP data/wgs/fg1.snps > data/wgs/fg1.snps.vcf
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t SNP data/wgs/fg2.snps > data/wgs/fg2.snps.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t SNP data/wgs/fg1.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }' > data/wgs/fg1.snps.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t SNP data/wgs/fg2.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }' > data/wgs/fg2.snps.vcf
 
 # indels
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t INDEL data/wgs/fg1.snps > data/wgs/fg1.indels.vcf
-./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t INDEL data/wgs/fg2.snps > data/wgs/fg2.indels.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t INDEL data/wgs/fg1.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }' > data/wgs/fg1.indels.vcf
+./mummer2Vcf.pl -f data/refseq/FG.RR.27.genome.fa -t INDEL data/wgs/fg2.snps | awk '{print $1 "\t" $2 "\t.\t" $3 "\t" $4 "\t.\t.\t" $5 }'> data/wgs/fg2.indels.vcf
