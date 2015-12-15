@@ -16,7 +16,7 @@ state2col <- function(x) {
 ## with EM
 
 library (mixtools)
-vcf = read.table("data/density/density.txt")
+vcf = read.table("data/density/density6.txt")
 vcfem = normalmixEM(vcf$V4/25,k=2)
 par(mar=c(5,4.5,1,1))
 plot.mixEM(vcfem, breaks=50,density = TRUE, lwd2  = 2, w=1.1, xlab2="Variants/kb",main2="",col2=c("purple","orange"))
@@ -24,8 +24,8 @@ library(shape)
 
 Arrows(2.0, 0.63, 3.2, 0.63, arr.length = 0.2, segment = T, code = 1, arr.adj = 0.5, col="purple")
 Arrows(5.5, 0.085, 6.3, 0.12, arr.length = 0.2, segment = T, code = 1, arr.adj = 0.5, col="orange" )
-text(11,0.63, expression(paste("slow: ", mu, " = 0.5,  ", sigma," = 0.3")))
-text(11,0.17, expression(paste("fast: ", mu, " = 4.8,  ", sigma," = 3.2")))
+text(11,0.63, expression(paste("slow: ", mu, " = 0.6,  ", sigma," = 0.3")))
+text(11,0.17, expression(paste("fast: ", mu, " = 4.9,  ", sigma," = 3.5")))
 
 mtext("a", adj=0.01, line=-2, outer=T)
 
@@ -40,8 +40,8 @@ write.table(paste(vcf$V1, vcf$V2, vcf$V3, state),file="data/2speed/state.tsv", s
 write.table(paste(vcf$V1, vcf$V2, vcf$V3, state2col(state)),file="data/circos/data/state.txt", sep = "\t", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
 # classpro
-fast<-6092
-slow<-8072
+fast<-6353
+slow<-7811
 genome<-read.table("data/classpro/genome.tsv")
 g<-as.matrix(genome)
 g[1,]<-g[1,]/slow
