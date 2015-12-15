@@ -11,35 +11,33 @@ library(plotrix)
 # pn - ps
 x<-read.table("data/pnps/pnps.tsv")
 xl<-dim(x)
-pns<-c(0)
-pss<-c(0)
-pn_ps<-c(0)
-for (i in seq(1,21)) {
-  pns<-pns+x[,i*4-2]
-  pss<-pss+x[,i*4-1]
-  pn_ps<-(pns-pss)/21
-}
 
-psm<-rep(FALSE, xl[1])
-for (i in 1:length(pns)) {
-  if (pn_ps[i] > 0) {
-    psm[i]<-TRUE
+pn_ps<-rep(NA, xl[1]*21)
+dim(pn_ps)<-c(xl[1],21)
+rownames(pn_ps)<-x[,1]
+# marker
+psm<-rep(NA, xl[1])
+dim(psm)<-c(xl[1],1)
+rownames(psm)<-x[,1]
+for (i in seq(1,xl[1])) {
+  for (j in seq(1,21)) {
+    pn_ps[i,j] <- x[i,j*4-2] - x[i,j*4-1]
+    if (pn_ps[i,j] > 0) {
+      psm[i]<-TRUE
+    }
   }
 }
-
-names(psm)<-x[,1]
-names(pn_ps)<-x[,1]
-
-write.table(pn_ps, "data/pnps/positive1.txt", quote = F, row.names = T,col.names = F)
-write.table(names(psm)[psm>0], "data/pnps/positive1.id.txt", quote = F, row.names = F,col.names = F)
-system("./isc data/2speed/list.fast data/pnps/positive1.id.txt > data/pnps/positive1.id.fast")
-system("./isc data/2speed/list.slow data/pnps/positive1.id.txt > data/pnps/positive1.id.slow")
-system("./isc data/2speed/list.fast data/pnps/positive1.txt > data/pnps/positive1.fastall.txt")
-system("./isc data/2speed/list.slow data/pnps/positive1.txt > data/pnps/positive1.slowall.txt")
+write.table(pn_ps, "data/pnps/positive.txt", quote = F, row.names = T,col.names = F)
+write.table(rownames(psm)[psm>0], "data/pnps/positive.temp.txt", quote = F, row.names = F,col.names = F)
+system("cat data/pnps/positive.temp.txt | grep 'FGRRES' | cut -f1 > data/pnps/positive1.id.txt && rm data/pnps/positive.temp.txt")
+system("./isc data/2speed/list.fast data/pnps/positive1.id.txt > data/pnps/positive1.fast")
+system("./isc data/2speed/list.slow data/pnps/positive1.id.txt > data/pnps/positive1.slow")
+system("./isc data/2speed/list.fast data/pnps/positive.txt > data/pnps/positive.fast")
+system("./isc data/2speed/list.slow data/pnps/positive.txt > data/pnps/positive.slow")
 
 par(mar=c(4.25,4,1.5,0.5))
 br<-100
-z<-hist(pn_ps, breaks = br, plot=F)
+z<-hist(rowMeans(pn_ps), breaks = br, plot=F)
 xt<-z$breaks
 gap.barplot(z$density,
             gap=c(70,180),
