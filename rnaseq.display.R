@@ -18,14 +18,14 @@ par(mar=c(4,5,1.0,0.5))
 mc <- brewer.pal(6,"Blues")
 mc[3]<-c("pink")
 mc[4]<-c("red")
-# slow	fast
-#nd	1251	2060
-#ns	4295	1821
-#up>2	921	492
-#up>10	175	655
-#down>2	1018	574
-#down>10  412	490
-fr<-matrix(c(1251+4295,920,175,1018,412,2060+1821,492,655,574,490),5)
+#	slow	fast
+#nd	1186	2125
+#ns	4185	1931
+#up>2	896	517
+#up>10	170	660
+#down>2	979	610
+#down>10	395	510
+fr<-matrix(c(1186+4185,896,170,979,395,2125+1931,517,660,610,510),5)
 rownames(fr)<-c("ns", "up>2", "up>10", "down>2", "down>10")
 colnames(fr)<-c("slow","fast")
 barplot(prop.table(fr,2),xlim=c(0,4),ylab="frequency", col=mc[2:6])
@@ -48,11 +48,10 @@ par(xpd=NA)
 text(1:4,-18,mylab)
 mtext("c", adj=0.020, line=-20, outer=T);
 
-
 rnaseq<-read.table("data/classpro/rnaseq.tsv")
 r<-as.matrix(rnaseq)
-fast<-6092
-slow<-8072
+fast<-6353
+slow<-7811
 r[1,]<-r[1,]/slow
 r[2,]<-r[2,]/fast
 par(mar=c(3,5,1.0,1.0))

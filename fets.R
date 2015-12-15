@@ -30,7 +30,7 @@ fsft$p.value
 
 # rnaseq - up
 fsf <-
-  matrix(c(1147, 6092-1147, 1096, 8072-1096),
+  matrix(c(1177, 6353-1177, 1066, 7811-1066),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -40,7 +40,7 @@ fsft$p.value
 
 # rnaseq - down
 fsf <-
-  matrix(c(1064, 6092-1064, 1430, 8072-1430),
+  matrix(c(1120, 6353-1120, 1374, 7811-1374),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -48,10 +48,9 @@ fsft<-fisher.test(fsf, alternative = "greater")
 fsf
 fsft$p.value
 
-
 # rnaseq - total
 fsf <-
-  matrix(c(2211, 6092-2211, 2526, 8092-2526),
+  matrix(c(2297, 6353-2297, 2440, 7811-2440),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
