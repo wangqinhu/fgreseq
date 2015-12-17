@@ -1,6 +1,6 @@
 # SP number
 fsf <-
-  matrix(c(494, 6092-494, 122, 8072-122),
+  matrix(c(504, 6353-504, 112, 7811-112),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -10,7 +10,7 @@ fsft$p.value
 
 # postive1 selection number
 fsf <-
-  matrix(c(2440, 6092-2440, 2179, 8072-2179),
+  matrix(c(3201, 6353-3201, 2750, 7811-2750),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -20,7 +20,7 @@ fsft$p.value
 
 # postive2 selection number
 fsf <-
-  matrix(c(276, 6092-276, 73, 8072-73),
+  matrix(c(313, 6353-313, 131, 7811-131),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -60,17 +60,7 @@ fsft$p.value
 
 # infection
 fsf <-
-  matrix(c(81, 6025-81, 25, 8140-25),
-         nrow = 2,
-         dimnames = list(Class = c("T", "F"),
-                         Genome = c("Fast", "Slow")))
-fsft<-fisher.test(fsf, alternative = "greater")
-fsf
-fsft$p.value
-
-# refined
-fsf <-
-  matrix(c(51, 6025-81, 10, 8140-25),
+  matrix(c(72, 6353-72, 8, 7811-8),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
