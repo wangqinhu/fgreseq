@@ -1,4 +1,4 @@
-mc <- rev(heat.colors(5)[2:5])
+mc <- rev(heat.colors(3))
 x<-read.table("data/infection/dat.txt")
 pdf("data/infection/class.pdf",3.5,4)
 par(mar=c(3,4,1,1))
