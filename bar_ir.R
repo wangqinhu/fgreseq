@@ -1,0 +1,7 @@
+mc <- rev(heat.colors(5)[2:5])
+x<-read.table("data/infection/dat.txt")
+pdf("data/infection/class.pdf",3.5,4)
+par(mar=c(3,4,1,1))
+barplot(as.matrix(x), col=mc, xlim = c(0,4.5),ylab="Number of genes")
+legend("right", rev(rownames(x)), cex=0.8, col=rev(mc), pch=20)
+dev.off()
