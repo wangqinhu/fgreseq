@@ -23,6 +23,14 @@ open (IN, "data/pnps/tsv/CS3005.seq.tsv");
 my @cs3 = <IN>;
 close IN;
 
+open (IN, "data/pnps/tsv/FG1.seq.tsv");
+my @fg1 = <IN>;
+close IN;
+
+open (IN, "data/pnps/tsv/FG2.seq.tsv");
+my @fg2 = <IN>;
+close IN;
+
 for (my $i = 0; $i < @ph1; $i++) {
 	open (TBL, ">seqfile.tbl") or die $!;
 	print TBL "PH-1_$ph1[$i]";
@@ -30,6 +38,8 @@ for (my $i = 0; $i < @ph1; $i++) {
 	print TBL "HN9-1_$hn9[$i]";
 	print TBL "HN-Z6_$hnz[$i]";
 	print TBL "CS3005_$cs3[$i]";
+	print TBL "FG1_$fg1[$i]";
+	print TBL "FG2_$fg2[$i]";
 	close TBL;
 	my ($id, undef) = split /\t/, $ph1[$i];
 	print $id, "\t";

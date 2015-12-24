@@ -8,7 +8,7 @@ mkdir -p data/pnps/tsv
 ./combcds.pl data/pnps/cds/cds.PH-1.txt > data/pnps/tsv/PH-1.seq.tsv
 
 # Handle reseq strains
-strains=("HN9-1" "HN-Z6" "YL-1" "CS3005")
+strains=("HN9-1" "HN-Z6" "YL-1" "CS3005" "FG1" "FG2")
 
 for id in  ${strains[@]}; do
 
