@@ -28,8 +28,8 @@ mc[4]<-c("red")
 fr<-matrix(c(1186+4185,896,170,979,395,2125+1931,517,660,610,510),5)
 rownames(fr)<-c("ns", "up>2", "up>10", "down>2", "down>10")
 colnames(fr)<-c("slow","fast")
-barplot(prop.table(fr,2),xlim=c(0,4),ylab="frequency", col=mc[2:6])
-legend("right",rev(row.names(fr)), pch=20,col=rev(mc), cex = 0.8)
+barplot(prop.table(fr,2),xlim=c(0,6),ylab="frequency", col=mc[2:6])
+legend(3,0.67,rev(row.names(fr)), pch=20,col=rev(mc), cex = 1.0)
 mtext("b", adj=0.545, line=-1.8, outer=T)
 
 fu<-read.table("data/rnaseq/up.fast.sum.tsv")
@@ -55,13 +55,20 @@ slow<-7811
 r[1,]<-r[1,]/slow
 r[2,]<-r[2,]/fast
 par(mar=c(3,5,1.0,1.0))
-barplot(prop.table(r,2),
-        col = c("purple","yellow"),
-        ylab = "Ratio of subgenome",
-        cex.names = 0.8,
-        xlim = c(0,6.5)
+barx<-barplot(prop.table(r,2),
+              col = c("purple","yellow"),
+              ylab = "Ratio of subgenome",
+              xlim = c(0,8),
+              xaxt="n"
 )
-legend(5.2, 1, rev(rownames(r)), fill = c("yellow","purple"), cex = 0.8)
+text(barx+0.6, -0.1,
+     cex = 0.8,
+     labels=colnames(r),
+     srt=45,
+     pos=2,
+     font = 2,
+     xpd=TRUE)
+legend(6.2, 1, rev(rownames(r)), fill = c("yellow","purple"),cex=0.7)
 mtext("d", adj=0.545, line=-20, outer=T);
 
 dev.off()

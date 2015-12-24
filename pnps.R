@@ -68,14 +68,21 @@ positive<-read.table("data/classpro/positive.tsv")
 p<-as.matrix(positive)
 p[1,]<-p[1,]/slow
 p[2,]<-p[2,]/fast
-par(mar=c(4.25,6,1.5,0.5))
-barplot(prop.table(p,2),
-        col = c("purple","yellow"),
-        ylab = "Ratio of subgenome",
-        xlim = c(0,7),
-        cex.names = 0.75
+par(mar=c(4.25,6,1.5,0.2))
+barx<-barplot(prop.table(p,2),
+              col = c("purple","yellow"),
+              ylab = "Ratio of subgenome",
+              xlim = c(0,8),
+              xaxt="n"
 )
-legend(5, 1, rev(rownames(p)), fill = c("yellow","purple"),cex=0.8)
+text(barx+0.6, -0.1,
+     cex = 0.8,
+     labels=colnames(p),
+     srt=45,
+     pos=2,
+     font = 2,
+     xpd=TRUE)
+legend(6.2, 1, rev(rownames(p)), fill = c("yellow","purple"),cex=0.7)
 mtext("b", adj=0.56, line=-2, outer=T)
 
 

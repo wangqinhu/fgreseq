@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dat=("data/cazy/CAZY.woGT.txt" "data/blast/phi.hit.tsv" "data/blast/paid.hit.tsv" "data/blast/smid.hit.tsv")
+dat=("data/cazy/CAZY.woGT.txt" "data/blast/phi.hit.tsv" "data/blast/paid.hit.tsv" "data/blast/smid.hit.tsv" "data/secretome/fg.secretome.txt")
 
 for f in  ${dat[@]}; do
 	isc data/2speed/list.fast $f | wc -l | xargs echo "fast $f: "
