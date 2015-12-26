@@ -49,15 +49,12 @@ text(1:4,-18,mylab)
 mtext("c", adj=0.020, line=-20, outer=T);
 
 rnaseq<-read.table("data/classpro/rnaseq.tsv")
-r<-as.matrix(rnaseq)
-fast<-6353
-slow<-7811
-r[1,]<-r[1,]/slow
-r[2,]<-r[2,]/fast
+genome<-read.table("data/classpro/genome.tsv")
+r<-as.matrix(rnaseq/genome)
 par(mar=c(3,5,1.0,1.0))
 barx<-barplot(prop.table(r,2),
               col = c("purple","yellow"),
-              ylab = "Ratio of subgenome",
+              ylab = "Proportion",
               xlim = c(0,8),
               xaxt="n"
 )

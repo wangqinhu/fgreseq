@@ -62,7 +62,7 @@ par(mar=c(4.5,4.5,1,0.5))
 barplot(g,
         beside = T,
         col = c("purple","yellow"),
-        ylab = "Ratio of subgenome",
+        ylab = "Ratio",
         ylim = c(0,0.33)
 )
 legend("topright", box.col = "white", rownames(g), fill = c("purple","yellow"))

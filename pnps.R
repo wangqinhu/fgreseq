@@ -62,16 +62,13 @@ mtext("a", adj=0.01, line=-2, outer=T)
 ############
 # classpro #
 ############
-fast<-6353
-slow<-7811
 positive<-read.table("data/classpro/positive.tsv")
-p<-as.matrix(positive)
-p[1,]<-p[1,]/slow
-p[2,]<-p[2,]/fast
+genome<-read.table("data/classpro/genome.tsv")
+p<-as.matrix(positive/genome)
 par(mar=c(4.25,6,1.5,0.2))
 barx<-barplot(prop.table(p,2),
               col = c("purple","yellow"),
-              ylab = "Ratio of subgenome",
+              ylab = "Proportion",
               xlim = c(0,8),
               xaxt="n"
 )
