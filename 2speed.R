@@ -27,7 +27,7 @@ Arrows(5.5, 0.085, 6.3, 0.12, arr.length = 0.2, segment = T, code = 1, arr.adj =
 text(11,0.63, expression(paste("slow: ", mu, " = 0.6,  ", sigma," = 0.3")))
 text(11,0.17, expression(paste("fast: ", mu, " = 4.9,  ", sigma," = 3.5")))
 
-mtext("a", adj=0.01, line=-2, outer=T)
+mtext("A", adj=0.01, line=-2, outer=T)
 
 ## decode with veterbi
 library (depmixS4)
@@ -48,7 +48,7 @@ names(x)<-c("slow", "fast")
 par(mar=c(4.5,4.5,1,1))
 boxplot(x,ylim=c(40,60),col=c("purple","yellow"),ylab="GC content (%)")
 t.test(fast$V1,slow$V1, alternative = "less")$p.value
-mtext("b", adj=0.35, line=-2, outer=T);
+mtext("B", adj=0.35, line=-2, outer=T);
 
 
 # classpro
@@ -66,6 +66,6 @@ barplot(g,
         ylim = c(0,0.33)
 )
 legend("topright", box.col = "white", rownames(g), fill = c("purple","yellow"))
-mtext("c", adj=0.685, line=-2, outer=T);
+mtext("C", adj=0.685, line=-2, outer=T);
 
 dev.off()
