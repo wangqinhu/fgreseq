@@ -31,33 +31,34 @@ sf <- c(7082500,
 
 # raw freq
 freq1 <- read.table("data/var/var_freq.txt", header = TRUE, check.names = FALSE)
-pc1 <- rowMeans(freq1)
-sd1 <- rowSd(freq1)
+pc1 <- rowMeans(freq1) * 100
+sd1 <- rowSd(freq1) * 100
 
 # normalized freq
 freq2 <- freq1 / sf * sum(sf)
 pc2 <- rowMeans(freq2)
-pc2 <- pc2 / sum(pc2)
-sd2 <- rowSd(freq2)/sum(rowMeans(freq2))
+pc2 <- pc2 / sum(pc2) * 100
+sd2 <- rowSd(freq2)/sum(rowMeans(freq2)) * 100
 
 # plot
 f<-rbind(pc1,pc2)
 rownames(f) <- c("percentage", "normalized percentage")
-par(mar=c(5,4.5,1,1))
+par(mar=c(4,4.5,1,1))
 barx <- barplot(f,
                 beside = T,
-                ylim = c(0,0.65),
+                ylim = c(0,65),
                 xaxt="n",
                 col = c("lightblue", "pink")
                 )
 lablist <- rbind("", colnames(f))
-text(barx, -0.05,
+text(barx, -2.5,
      cex = 0.9,
-     #font = 2,
+     font = 2,
      labels=lablist,
      srt=45,
      pos=2,
      xpd=TRUE)
+text(-0.5, 66, "(%)", xpd=TRUE)
 error.bar(barx, f, rbind(sd1,sd2) )
 legend("top",
        box.col = "white",
