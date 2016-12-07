@@ -11,7 +11,7 @@ points(f$logCPM,f$logFC,pch=20,cex=0.8, col="yellow")
 non<-read.table("data/rnaseq/no.diff.tsv")
 points(non$logCPM,non$logFC,pch=20,cex=0.8)
 legend("topright", c("fast","slow", "ns"), pch = 20, bg ="lightgreen", col = c("yellow", "purple", "black"),cex=0.8)
-mtext("a", adj=0.020, line=-1.8, outer=T)
+mtext("A", adj=0.020, line=-1.8, outer=T)
 
 library(RColorBrewer)
 par(mar=c(4,5,1.0,0.5))
@@ -30,7 +30,7 @@ rownames(fr)<-c("ns", "up>2", "up>10", "down>2", "down>10")
 colnames(fr)<-c("slow","fast")
 barplot(prop.table(fr,2),xlim=c(0,6),ylab="frequency", col=mc[2:6])
 legend(3,0.67,rev(row.names(fr)), pch=20,col=rev(mc), cex = 1.0)
-mtext("b", adj=0.545, line=-1.8, outer=T)
+mtext("B", adj=0.545, line=-1.8, outer=T)
 
 fu<-read.table("data/rnaseq/up.fast.sum.tsv")
 su<-read.table("data/rnaseq/up.slow.sum.tsv")
@@ -46,7 +46,7 @@ box()
 mylab<-c("up\nslow", "up\nfast", "down\nslow", "down\nfast")
 par(xpd=NA)
 text(1:4,-18,mylab)
-mtext("c", adj=0.020, line=-20, outer=T);
+mtext("C", adj=0.020, line=-20, outer=T);
 
 rnaseq<-read.table("data/classpro/rnaseq.tsv")
 genome<-read.table("data/classpro/genome.tsv")
@@ -66,6 +66,6 @@ text(barx+0.6, -0.1,
      font = 2,
      xpd=TRUE)
 legend(6.2, 1, rev(rownames(r)), fill = c("yellow","purple"),cex=0.7)
-mtext("d", adj=0.545, line=-20, outer=T);
+mtext("D", adj=0.545, line=-20, outer=T);
 
 dev.off()

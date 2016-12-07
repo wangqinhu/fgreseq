@@ -5,12 +5,12 @@ pdf("infection.pdf", family = "ArialMT", 3.5,3.5)
 #par(mar=c(4,0,4.5,5))
 venn.plot <- draw.triple.venn(
   area1 = 2243,
-  area2 = 5951,
+  area2 = 1181,
   area3 = 616,
-  n12 = 825,
-  n23 = 271,
+  n12 = 109,
+  n23 = 47,
   n13 = 221,
-  n123 = 80,
+  n123 = 8,
   category = c("Up", "Positive", "SP"),
   fill =  c("#FFCC66", "#EE6666", "#66FF99"),
   lty = 1,

@@ -48,6 +48,7 @@ barx <- barplot(f,
                 beside = T,
                 ylim = c(0,65),
                 xaxt="n",
+                ylab="Percentages of variants",
                 col = c("lightblue", "pink")
                 )
 lablist <- rbind("", colnames(f))
