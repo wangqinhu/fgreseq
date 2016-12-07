@@ -8,19 +8,9 @@ fsft<-fisher.test(fsf, alternative = "greater")
 fsf
 fsft$p.value
 
-# postive1 selection number
+# postive selection number
 fsf <-
-  matrix(c(3201, 6353-3201, 2750, 7811-2750),
-         nrow = 2,
-         dimnames = list(Class = c("T", "F"),
-                         Genome = c("Fast", "Slow")))
-fsft<-fisher.test(fsf, alternative = "greater")
-fsf
-fsft$p.value
-
-# postive2 selection number
-fsf <-
-  matrix(c(313, 6353-313, 131, 7811-131),
+  matrix(c(609, 6353-609, 572, 7811-572),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
@@ -51,16 +41,6 @@ fsft$p.value
 # rnaseq - total
 fsf <-
   matrix(c(2297, 6353-2297, 2440, 7811-2440),
-         nrow = 2,
-         dimnames = list(Class = c("T", "F"),
-                         Genome = c("Fast", "Slow")))
-fsft<-fisher.test(fsf, alternative = "greater")
-fsf
-fsft$p.value
-
-# infection
-fsf <-
-  matrix(c(72, 6353-72, 8, 7811-8),
          nrow = 2,
          dimnames = list(Class = c("T", "F"),
                          Genome = c("Fast", "Slow")))
