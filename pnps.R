@@ -133,11 +133,10 @@ pn_f<-c(0)
 for (i in seq(0,20)) {
   pn_f<-pn_f+x[,i*4+2]
 }
-library(vioplot)
-y<-list(pn_s/21,pn_f/21)
+y<-list(pn_s/21*100,pn_f/21*100)
 names(y)<-c("slow","fast")
 par(mar=c(3.5,4,2,1))
-boxplot(y,col=c("purple","yellow"),ylab="pN")
+boxplot(y,col=c("purple","yellow"),ylab=paste("pN (x 0.01)"),outline=F, ylim=c(0,1.5))
 
 yt<-t.test(y$fast,y$slow, alternative = "g")
 yt$p.value
