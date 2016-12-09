@@ -50,7 +50,7 @@ for (i in seq(1,22)) {
 par(mar=c(4.5,4,1,1))
 gap.barplot(zc,
             gap=c(1500,7500),
-            xlab="Number of the pairs for (pN - pS > 1)",
+            xlab="No. of the ortholog pairs for pN-pS > 0",
             ylab = "Number of genes",
             xaxt='n',
             col = c(rep("lightblue",br), rep("red", 22-br))
