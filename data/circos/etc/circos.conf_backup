@@ -1,0 +1,174 @@
+
+<<include colors_fonts_patterns.conf>>
+<<include ideogram.conf>>
+<<include ticks.conf>>
+
+<image>
+<<include etc/image.conf>>
+</image>
+
+karyotype   = data/karyotype/FG.karyotype.txt
+
+chromosomes_units = 1000000
+chromosomes       = Chr1;Chr2;Chr3;Chr4
+chromosomes_display_default = yes
+
+
+<plots>
+
+type      = line
+thickness = 4
+
+
+<plot>
+max_gap = 1u
+file    = data/gc/gc.interval.tsv
+color   = vdblue
+min     = 40
+max     = 56
+r0      = 0.9r
+r1      = 1.0r - 30p
+fill_color = dblue
+</plot>
+
+
+<plot>
+type      = heatmap
+max_gap = 1u
+file    = data/circos/data/secretome.density.txt
+color   = blues-9-seq
+min     = 0
+max     = 6
+r0      = 0.8r
+r1      = 0.9r - 30p
+</plot>
+
+
+<plot>
+max_gap = 1u
+file    = data/density/YL-1.density.txt
+color   = red
+min     = 0
+max     = 750
+r0      = 0.7r
+r1      = 0.8r - 30p
+fill_color = vlred_a2
+
+<backgrounds>
+<background>
+color     = lblue
+y0        = 0.006
+</background>
+<background>
+color     = lblue
+y1        = 0.002
+</background>
+</backgrounds>
+
+
+</plot>
+
+<plot>
+max_gap = 1u
+file    = data/density/HN9-1.density.txt
+color   = red
+min     = 0
+max     = 750
+r0      = 0.6r
+r1      = 0.7r - 30p
+fill_color = vlred_a2
+
+<backgrounds>
+<background>
+color     = vlblue
+y0        = 0.006
+</background>
+<background>
+color     = vlblue
+y1        = 0.002
+</background>
+</backgrounds>
+
+</plot>
+
+<plot>
+max_gap = 1u
+file    = data/density/HN-Z6.density.txt
+color   = red
+min     = 0
+max     = 750
+r0      = 0.5r
+r1      = 0.6r - 30p
+fill_color = vlred_a2
+
+<backgrounds>
+<background>
+color     = vvlblue
+y0        = 0.006
+</background>
+<background>
+color     = vvlblue
+y1        = 0.002
+</background>
+</backgrounds>
+
+</plot>
+
+<plot>
+max_gap = 1u
+file    = data/density/CS3005.density.txt
+color   = blue
+min     = 0
+max     = 750
+r0      = 0.4r
+r1      = 0.5r - 30p
+fill_color = vlblue_a2
+
+<backgrounds>
+<background>
+color     = vvlgrey_a1
+y0        = 0.006
+</background>
+<background>
+color     = vvlgrey_a1
+y1        = 0.002
+</background>
+</backgrounds>
+
+</plot>
+
+<plot>
+max_gap = 1u
+file    = data/density/GZ3639.density.txt
+color   = blue
+min     = 0
+max     = 750
+r0      = 0.3r
+r1      = 0.4r - 30p
+fill_color = vlblue_a2
+
+<backgrounds>
+<background>
+color     = vvvlgrey_a1
+y0        = 0.006
+</background>
+<background>
+color     = vvvlgrey_a1
+y1        = 0.002
+</background>
+</backgrounds>
+
+</plot>
+
+
+</plots>
+
+<highlights>
+<highlight>
+file       = data/circos/data/state.txt
+r0         = 0.3r
+r1         = 1.0r
+</highlight>
+</highlights>
+
+<<include etc/housekeeping.conf>>

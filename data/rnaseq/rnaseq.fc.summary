@@ -1,0 +1,12 @@
+Status	data/rnaseq/bam/PH1_6d_1.sorted.bam	data/rnaseq/bam/PH1_6d_2.sorted.bam	data/rnaseq/bam/PH1_CM_1.sorted.bam	data/rnaseq/bam/PH1_CM_2.sorted.bam
+Assigned	7559810	1323834	7764431	7788099
+Unassigned_Ambiguity	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0
+Unassigned_NoFeatures	691838	128110	1115977	1117924
+Unassigned_Unmapped	36913472	44358716	242616	280782
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_Secondary	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0
+Unassigned_Duplicate	0	0	0	0

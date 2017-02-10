@@ -1,0 +1,4 @@
+chr - Chr1 1 1 11760950 white
+chr - Chr2 2 1 8997558 white
+chr - Chr3 3 1 7792947 white
+chr - Chr4 4 1 9407501 white

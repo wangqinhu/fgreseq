@@ -1,0 +1,19 @@
+GOID	Term	Category	FDR	P	T	R	NAT	NAR
+GO:0005576	extracellular region	C	6.37E-10	1.18E-12	67	20	3276	5061
+GO:0016021	integral component of membrane	C	2.02E-04	7.44E-07	562	660	2781	4421
+GO:0004497	monooxygenase activity	F	1.87E-18	8.62E-22	150	58	3193	5023
+GO:0000981	RNA polymerase II transcription factor activity, sequence-specific DNA binding	F	8.52E-15	5.89E-18	288	206	3055	4875
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	F	2.15E-11	2.72E-14	133	69	3210	5012
+GO:0020037	heme binding	F	6.23E-11	1.01E-13	116	56	3227	5025
+GO:0008270	zinc ion binding	F	1.29E-09	2.54E-12	457	449	2886	4632
+GO:0005506	iron ion binding	F	1.44E-08	3.33E-11	119	69	3224	5012
+GO:0031177	phosphopantetheine binding	F	1.89E-06	5.02E-09	26	2	3317	5079
+GO:0008762	UDP-N-acetylmuramate dehydrogenase activity	F	1.99E-06	5.52E-09	46	14	3297	5067
+GO:0071949	FAD binding	F	4.04E-06	1.21E-08	42	12	3301	5069
+GO:0015171	amino acid transmembrane transporter activity	F	2.13E-05	6.64E-08	50	20	3293	5061
+GO:0004252	serine-type endopeptidase activity	F	8.51E-04	4.02E-06	37	15	3306	5066
+GO:0015925	galactosidase activity	F	2.17E-02	1.24E-04	12	1	3331	5080
+GO:0055114	oxidation-reduction process	P	4.88E-29	1.13E-32	701	578	2642	4503
+GO:0003333	amino acid transmembrane transport	P	2.70E-05	8.70E-08	52	22	3291	5059
+GO:0006040	amino sugar metabolic process	P	2.17E-02	1.24E-04	65	49	3278	5032
+GO:0045493	xylan catabolic process	P	3.63E-02	2.22E-04	23	9	3320	5072

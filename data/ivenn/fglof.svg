@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="diagram" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:version="0.32" inkscape:version="0.48.4 r9939" sodipodi:docname="6waydiagram.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="12 167.8 590 465"
+	 style="enable-background:new 12 167.8 590 465;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFA76D;fill-opacity:0.2;stroke:#000000;stroke-width:0.2346;}
+	.st1{fill:#FFFF8E;fill-opacity:0.2;stroke:#000000;stroke-width:0.236;}
+	.st2{fill:#8BFF8B;fill-opacity:0.2;stroke:#000000;stroke-width:0.75;}
+	.st3{fill:#7F93F6;fill-opacity:0.2;stroke:#000000;stroke-width:0.75;}
+	.st4{fill:#2FE6E6;fill-opacity:0.2;stroke:#000000;stroke-width:0.75;}
+	.st5{fill:#A0A0A4;fill-opacity:0.2;stroke:#000000;stroke-width:0.2359;}
+	.st6{fill:#E59661;enable-background:new    ;}
+	.st7{font-family:'ArialMT';}
+	.st8{font-size:14.9537px;}
+	.st9{fill:#E5E57F;enable-background:new    ;}
+	.st10{fill:#7CE57C;enable-background:new    ;}
+	.st11{fill:#7284DD;enable-background:new    ;}
+	.st12{fill:#8F8F93;enable-background:new    ;}
+	.st13{fill:#2ACECE;enable-background:new    ;}
+	.st14{fill:none;stroke:#000000;stroke-width:1.1934;stroke-opacity:0.4928;stroke-dasharray:1.1934,3.5801;}
+	.st15{fill:none;stroke:#000000;stroke-width:1.618;stroke-opacity:0.337;stroke-dasharray:1.618,6.472;}
+	.st16{enable-background:new    ;}
+	.st17{font-size:8.2571px;}
+</style>
+<sodipodi:namedview  id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" objecttolerance="10" inkscape:zoom="1.4142136" inkscape:cx="289.98875" inkscape:cy="359.0199" showgrid="false" showguides="true" inkscape:window-width="1861" inkscape:window-height="1056" inkscape:window-x="59" inkscape:window-y="24" inkscape:window-maximized="1" inkscape:guide-bbox="true" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:current-layer="layer1" inkscape:pageopacity="0.0">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-266.937 -95.8692)" inkscape:label="Layer 1" inkscape:groupmode="layer">
+	
+		<path id="elipseA" sodipodi:type="inkscape:offset" inkscape:radius="7.5" inkscape:label="#path6835" inkscape:original="M 277.4375 439.1875 L 277.4375 500.3125 L 476.4375 500.3125 L 476.4375 439.1875 L 277.4375 439.1875 z " class="st0" d="
+		M305.3,496.9c-11.2,0-20.3,8.6-20.3,19.3v157.3c0,10.7,9.1,19.3,20.3,19.3h538.8c11.2,0,20.3-8.6,20.3-19.3V516.2
+		c0-10.7-9.1-19.3-20.3-19.3H305.3z"/>
+	
+		<path id="elipseB" sodipodi:type="inkscape:offset" inkscape:radius="7.323606" inkscape:label="#path6829" inkscape:original="M 372.46875 373 L 372.46875 503.375 L 473.53125 503.375 L 473.53125 373 L 372.46875 373 z " class="st1" d="
+		M588.8,300.1c-10.3,0-18.6,8.9-18.6,19.8v353c0,10.9,8.3,19.8,18.6,19.8h256.9c10.3,0,18.6-8.9,18.6-19.8v-353
+		c0-10.9-8.3-19.8-18.6-19.8L588.8,300.1L588.8,300.1z"/>
+	<path id="elipseD" inkscape:label="#path8609" inkscape:connector-curvature="0" class="st2" d="M396.9,604.5
+		c-40.9-8.8-74.9-43.3-84.5-83.8c-0.7-25.2-5-52.8,8.7-75.6c23.8-49.7,87.4-75.3,138.7-54.5c31.7,12.1,51.5,44.3,85.6,51.7
+		c38.6,12.3,80.8-4.5,108.3-32.4c39.7-35.2,104.7-35.1,144.1,0.6c20.8,19,39,45.7,36.1,75.3c0.9,25.4-0.5,52.8-17.8,73.2
+		c-28.9,43.7-91.1,59.9-137.9,36.3c-29.6-13.6-49.3-45.4-83.6-49.2c-24.2-7-50.4-0.9-72.4,10c-18.4,10.9-31.6,28.7-51.5,37.5
+		C448.9,606.6,421.5,607.8,396.9,604.5L396.9,604.5z"/>
+	
+		<path id="elipseE" inkscape:label="#path9498" sodipodi:nodetypes="cccccccccccccccscccc" inkscape:connector-curvature="0" class="st3" d="
+		M552.3,655c-21.5-9.3-29.2-35.5-23.4-56.9c3.1-16.3,4.7-35.6-6.1-49.1c-13.1-13.8-30.6-19.2-47.3-10.5
+		c-21.8,6.5-49.5,0.8-60.2-21.1c-12.4-23.9-1.8-59.3,25.8-66.6c17.5-5.5,35.3,2.1,52.5,4.2c16-4.8,35.9-14.7,36.3-34
+		c1.2-21.1-3.7-42.6,0.4-63.4c8.9-19.6,31.8-30.1,52.6-25.3c19.6,2.7,37,21.2,34.4,41.7c1,15.2-3.9,30.1-2.9,45.2
+		c3.8,25.5,34.8,43.4,58.5,31.5c25.6-10.1,60.6,7.7,62,36.6c3.6,22.8-9.5,49.2-33.7,53.2c-21.5,5.5-45-10.4-66.7-1.2
+		c-15.7,6.6-19.1,21.3-20.4,36.4c0.9,19.5,9,40.6,0,59.2c-8.5,16.4-26.9,24.8-44.9,23C563.5,657.7,557.6,657.3,552.3,655L552.3,655z
+		"/>
+	
+		<path id="elipseF" inkscape:label="#path2376" sodipodi:nodetypes="csssssssssssssssssssssssssssssssc" inkscape:connector-curvature="0" class="st4" d="
+		M584.2,620.9c5.4-4.3,7-8.4,8.1-20.8c1.1-12.7,2.6-16.5,8.6-21.2c9.4-7.5,23.8-7.8,32.8,4c5.7,7.4,16.6,12.1,26.6,7.2
+		c5.4-2.7,9.2-7.9,9.4-13.4c0.2-6.8-1-11.4-4.7-15.1c-11-11-14.2-18.4-12.3-28.5c2.3-12.3,10-16.6,24.9-16.6
+		c8.8,0,13.3-1.6,18.3-6.6c14.4-14.4,3.4-35.1-19.1-35.1c-9.6,0-13.9-1.5-19.1-6.6c-10.7-10.7-8.2-24.3,7.4-39.9
+		c6.4-6.4,6.2-16.1-0.5-23.9c-7.9-9.2-19.7-8.3-30.6,2.3c-6.6,6.4-11.3,8.6-18.6,8.6c-15.2,0-21.8-7.1-23.3-25.3
+		c-1-12.5-2.6-16.5-8.3-20.9c-14-11-30.2,0.2-30.2,21c0,23.3-23,33.8-39.8,18.2c-10-9.4-18.8-12.6-25.1-9.2
+		c-15,8-17.7,20.5-6.9,31.3c13.6,13.6,15.8,25.7,6.9,37c-4.3,5.4-8.4,7-20.4,8c-17.9,1.5-24,6.5-24,19.7c0,13.2,6.1,18.2,24,19.7
+		c12,1,16.2,2.6,20.4,8c7.7,9.8,6.8,20.5-2.8,31.4c-10.7,12.2-12.5,22.8-5.3,31.3c6.4,7.5,20,8.5,25.3,2.6
+		c18.5-20.4,47.7-14.9,47.7,11.2c0,13.4,3.7,21.1,11.7,24.3C574.3,627.1,576.8,626.7,584.2,620.9L584.2,620.9z"/>
+	
+		<path id="elipseC" sodipodi:rx="41.353119" sodipodi:ry="41.353119" sodipodi:cx="105.87662" sodipodi:cy="71.574539" sodipodi:type="arc" inkscape:label="#path3265" class="st5" d="
+		M683.1,492.1c0,60-48.6,108.6-108.6,108.6c-60,0-108.6-48.6-108.6-108.6s48.6-108.6,108.6-108.6
+		C634.5,383.5,683.1,432.1,683.1,492.1L683.1,492.1z"/>
+	
+		<text id="labelA" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 385.6577 709.6296)" class="st6 st7 st8">FG1</text>
+	
+		<text id="labelB" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 680.4701 280.2791)" class="st9 st7 st8">FG2</text>
+	
+		<text id="labelD" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 284.0854 415.0823)" class="st10 st7 st8">CS3005</text>
+	
+		<text id="labelE" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 508.1186 319.7811)" class="st11 st7 st8">YL-1</text>
+	
+		<text id="labelC" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 452.6841 359.6477)" class="st12 st7 st8">HN9-1</text>
+	
+		<text id="labelF" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 367.0121 339.4895)" class="st13 st7 st8">HN-Z6</text>
+	<path id="path3829" inkscape:connector-curvature="0" class="st14" d="M480,394.6l-79.7-46.4"/>
+	<path id="path3851" inkscape:connector-curvature="0" class="st15" d="M517.5,392.8l-21.2-15"/>
+	
+		<text id="a" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 366.663 647.0994)" class="st16 st7 st17"> 267 </text>
+	
+		<text id="b" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 773.2505 347.1477)" class="st16 st7 st17"> 253 </text>
+	
+		<text id="c" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 513.978 407.2205)" class="st16 st7 st17"> 100 </text>
+	
+		<text id="f" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 491.038 408.8718)" class="st16 st7 st17"> 92 </text>
+	
+		<text id="d" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 376.8632 446.2449)" class="st16 st7 st17"> 106 </text>
+	
+		<text id="e" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 541.1913 362.387)" class="st16 st7 st17"> 148 </text>
+	
+		<text id="ce" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 531.4471 400.3338)" class="st16 st7 st17"> 21 </text>
+	
+		<text id="ef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 556.1098 380.2068)" class="st16 st7 st17"> 19 </text>
+	
+		<text id="bef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 570.8207 378.6453)" class="st16 st7 st17"> 3 </text>
+	
+		<text id="cf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 506.307 422.2103)" class="st16 st7 st17"> 18 </text>
+	
+		<text id="df" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 476.7504 419.1756)" class="st16 st7 st17"> 17 </text>
+	
+		<text id="af" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 489.77 588.5027)" class="st16 st7 st17"> 4 </text>
+	
+		<text id="bf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 643.4369 406.3152)" class="st16 st7 st17"> 9 </text>
+	
+		<text id="bd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 740.3823 441.4334)" class="st16 st7 st17"> 22 </text>
+	
+		<text id="ab" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 748.2963 634.3347)" class="st16 st7 st17"> 47 </text>
+	
+		<text id="bc" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 614.0862 407.9666)" class="st16 st7 st17"> 18 </text>
+	
+		<text id="ac" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 517.8037 583.389)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="cd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 476.415 450.0095)" class="st16 st7 st17"> 13 </text>
+	
+		<text id="ad" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 364.4716 540.8518)" class="st16 st7 st17"> 34 </text>
+	
+		<text id="de" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 423.3315 480.0135)" class="st16 st7 st17"> 17 </text>
+	
+		<text id="abd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 737.4145 553.217)" class="st16 st7 st17"> 8 </text>
+	
+		<text id="ae" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 539.0722 633.3455)" class="st16 st7 st17"> 58 </text>
+	
+		<text id="abe" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 579.1362 633.3455)" class="st16 st7 st17"> 20 </text>
+	
+		<text id="aef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 553.0809 608.9416)" class="st16 st7 st17"> 4 </text>
+	
+		<text id="abef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 571.2143 616.7039)" class="st16 st7 st17"> 10 </text>
+	
+		<text id="ace" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 531.9799 589.8098)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="abce" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 594.1528 593.5979)" class="st16 st7 st17"> 8 </text>
+	
+		<text id="acef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 535.1152 567.5613)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="abcef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 575.6742 568.5501)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="ade" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 424.3208 521.0667)" class="st16 st7 st17"> 34 </text>
+	
+		<text id="abde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 687.4575 529.97)" class="st16 st7 st17"> 14 </text>
+	
+		<text id="bde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 701.8022 476.0564)" class="st16 st7 st17"> 9 </text>
+	
+		<text id="acde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 474.7719 529.97)" class="st16 st7 st17"> 6 </text>
+	
+		<text id="abcde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 654.3179 532.9378)" class="st16 st7 st17"> 13 </text>
+	
+		<text id="bcde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 655.3081 461.7126)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="cde" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 470.3203 465.6697)" class="st16 st7 st17"> 4 </text>
+	
+		<text id="abf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 636.8394 586.6917)" class="st16 st7 st17"> 2 </text>
+	
+		<text id="adf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 477.7397 575.1477)" class="st16 st7 st17"> 4 </text>
+	
+		<text id="abdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 652.1723 574.8211)" class="st16 st7 st17"> 2 </text>
+	
+		<text id="acdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 492.578 553.7117)" class="st16 st7 st17"> 1 </text>
+	
+		<text id="acf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 508.2382 573.8318)" class="st16 st7 st17"> 1 </text>
+	
+		<text id="abcdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 623.4839 554.5413)" class="st16 st7 st17"> 6 </text>
+	
+		<text id="abcf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 617.2221 567.5613)" class="st16 st7 st17"> 3 </text>
+	
+		<text id="abcdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 600.1107 518.5935)" class="st16 st7 st17"> 41 </text>
+	
+		<text id="acdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 519.2953 517.1101)" class="st16 st7 st17"> 13 </text>
+	
+		<text id="cdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 518.9686 482.6462)" class="st16 st7 st17"> 15 </text>
+	
+		<text id="bcdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 601.9214 482.4866)" class="st16 st7 st17"> 9 </text>
+	
+		<text id="def" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 444.2651 493.2087)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="adef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 445.2544 504.0822)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="bdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 682.8384 492.8816)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="abdef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 682.3441 505.5662)" class="st16 st7 st17"> 17 </text>
+	
+		<text id="bcf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 618.2114 421.154)" class="st16 st7 st17"> 13 </text>
+	
+		<text id="bcdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 628.2631 436.9817)" class="st16 st7 st17"> 6 </text>
+	
+		<text id="bdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 653.6557 416.7024)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="cdf" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 490.432 438.1384)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="cef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 538.083 427.5837)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="bcef" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 580.6205 425.1106)" class="st16 st7 st17"> 5 </text>
+	
+		<text id="be" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 583.5874 358.8318)" class="st16 st7 st17"> 13 </text>
+	
+		<text id="bce" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 594.9643 397.907)" class="st16 st7 st17"> 12 </text>
+	
+		<text id="acd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 479.7182 543.8191)" class="st16 st7 st17"> 2 </text>
+	
+		<text id="bcd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 652.6674 449.1878)" class="st16 st7 st17"> 8 </text>
+	
+		<text id="abcd" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 652.4995 546.1248)" class="st16 st7 st17"> 6 </text>
+	
+		<text id="abc" xmlns:xml="http://www.w3.org/XML/1998/namespace" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 613.2845 583.7053)" class="st16 st7 st17"> 7 </text>
+	
+		<text id="totalD" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelD-0" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 282.582 428.072)" class="st10 st7 st8">(463)</text>
+	
+		<text id="totalF" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelF-1" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 365.7773 352.1067)" class="st13 st7 st8">(362)</text>
+	
+		<text id="totalC" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelC-9" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 450.7021 372.7493)" class="st12 st7 st8">(390)</text>
+	
+		<text id="totalE" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelE-6" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 506.935 332.2893)" class="st11 st7 st8">(561)</text>
+	
+		<text id="totalB" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelB-6" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 679.64 293.4807)" class="st9 st7 st8">(612)</text>
+	
+		<text id="totalA" xmlns:xml="http://www.w3.org/XML/1998/namespace" inkscape:label="#labelA-4" sodipodi:linespacing="125%" transform="matrix(1 0 0 1 383.5819 722.8522)" class="st6 st7 st8">(659)</text>
+</g>
+</svg>

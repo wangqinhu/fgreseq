@@ -1,0 +1,20 @@
+GOID	Term	Category	FDR	P	T	R	NAT	NAR
+GO:0005576	extracellular region	C	3.88E-06	2.68E-09	9	78	44	8293
+GO:0030570	pectate lyase activity	F	1.19E-02	1.92E-05	3	6	50	8365
+GO:0016837	carbon-oxygen lyase activity, acting on polysaccharides	F	1.58E-02	2.74E-05	3	7	50	8364
+GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	F	5.35E-13	6.17E-17	19	214	34	8157
+GO:0016798	hydrolase activity, acting on glycosyl bonds	F	1.81E-12	4.18E-16	19	239	34	8132
+GO:0016787	hydrolase activity	F	4.96E-10	1.71E-13	35	1609	18	6762
+GO:0003824	catalytic activity	F	2.51E-08	1.16E-11	51	4558	2	3813
+GO:0045493	xylan catabolic process	P	1.25E-03	1.44E-06	5	27	48	8344
+GO:0045491	xylan metabolic process	P	1.25E-03	1.44E-06	5	27	48	8344
+GO:0010410	hemicellulose metabolic process	P	1.33E-03	1.69E-06	5	28	48	8343
+GO:0010383	cell wall polysaccharide metabolic process	P	1.02E-02	1.53E-05	5	46	48	8325
+GO:0000272	polysaccharide catabolic process	P	1.21E-03	1.03E-06	7	80	46	8291
+GO:0044036	cell wall macromolecule metabolic process	P	1.21E-03	1.11E-06	7	81	46	8290
+GO:0006040	amino sugar metabolic process	P	3.55E-02	7.36E-05	6	108	47	8263
+GO:0016052	carbohydrate catabolic process	P	1.60E-02	2.94E-05	7	137	46	8234
+GO:0005976	polysaccharide metabolic process	P	1.95E-02	3.83E-05	7	143	46	8228
+GO:0071554	cell wall organization or biogenesis	P	4.82E-02	1.06E-04	7	169	46	8202
+GO:0005975	carbohydrate metabolic process	P	3.80E-08	2.19E-11	20	514	33	7857
+GO:0008152	metabolic process	P	1.02E-02	1.46E-05	51	6132	2	2239

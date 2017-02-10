@@ -1,0 +1,1733 @@
+ID   ph1
+FT   GAP             255..594
+FT                   /SIZE="340"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             1064..5086
+FT                   /SIZE="4023"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21957..22055
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             33689..34767
+FT                   /SIZE="1079"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             59337..78426
+FT                   /SIZE="19090"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             110751..112693
+FT                   /SIZE="1943"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             240641..246912
+FT                   /SIZE="6272"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             595331..596857
+FT                   /SIZE="1527"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             664403..665942
+FT                   /SIZE="1540"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             689648..689746
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             690083..690181
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             1025454..1025495
+FT                   /SIZE="42"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             1025730..1025828
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             1541115..1541213
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             1575323..1575462
+FT                   /SIZE="140"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             1815576..1815690
+FT                   /SIZE="115"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             1904822..1957131
+FT                   /SIZE="52310"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2005133..2005231
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2097560..2097566
+FT                   /SIZE="7"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2098271..2138588
+FT                   /SIZE="40318"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2167400..2167505
+FT                   /SIZE="106"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2203169..2203267
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2212426..2212524
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2273899..2274037
+FT                   /SIZE="139"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2277200..2277298
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2296098..2296305
+FT                   /SIZE="208"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             2448496..2448594
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2545319..2545417
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             2782375..2782473
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3179736..3179834
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3376259..3376357
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3417829..3419492
+FT                   /SIZE="1664"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             3564724..3564822
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3567966..3568801
+FT                   /SIZE="836"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             3569521..3569619
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3578013..3578111
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3581573..3581646
+FT                   /SIZE="74"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             3582579..3583559
+FT                   /SIZE="981"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             3726156..3726254
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3748983..3748993
+FT                   /SIZE="11"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             3882420..3882518
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3888667..3888765
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             3971004..3971102
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4011455..4011553
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4089869..4089911
+FT                   /SIZE="43"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4123794..4123922
+FT                   /SIZE="129"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4183888..4183904
+FT                   /SIZE="17"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4212865..4212999
+FT                   /SIZE="135"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4221348..4221568
+FT                   /SIZE="221"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4293901..4293999
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4323864..4323962
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4478306..4478404
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4536734..4536832
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4702010..4702108
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             4773451..4773475
+FT                   /SIZE="25"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             4821933..4822031
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             5021925..5022023
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             5022282..5022380
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             5223567..5224730
+FT                   /SIZE="1164"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             5228545..5228642
+FT                   /SIZE="98"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             5328797..5328895
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             5471962..5498789
+FT                   /SIZE="26828"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             5499650..5527889
+FT                   /SIZE="28240"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             6021999..6022097
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6055798..6055896
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6283961..6284132
+FT                   /SIZE="172"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             6328197..6328295
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6342654..6342752
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6373738..6373748
+FT                   /SIZE="11"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             6443708..6443806
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6473539..6473586
+FT                   /SIZE="48"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             6729871..6729969
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6752039..6752137
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             6843684..6847765
+FT                   /SIZE="4082"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7098011..7098109
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7098643..7223293
+FT                   /SIZE="124651"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7291511..7291612
+FT                   /SIZE="102"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7392987..7393085
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7421210..7421923
+FT                   /SIZE="714"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7483925..7484023
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7506042..7506140
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7608256..7608354
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7722010..7722108
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7948915..7949013
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7955619..7955717
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             7956247..7964144
+FT                   /SIZE="7898"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7967266..7984644
+FT                   /SIZE="17379"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7989112..7990011
+FT                   /SIZE="900"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7991841..7992051
+FT                   /SIZE="211"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7992555..7993090
+FT                   /SIZE="536"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             7993562..8009558
+FT                   /SIZE="15997"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8009987..8015327
+FT                   /SIZE="5341"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8157371..8157469
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             8182675..8182773
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             8182991..8186570
+FT                   /SIZE="3580"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8186953..8225236
+FT                   /SIZE="38284"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8226203..8297559
+FT                   /SIZE="71357"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8297782..8311666
+FT                   /SIZE="13885"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8312390..8396385
+FT                   /SIZE="83996"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8535178..8538295
+FT                   /SIZE="3118"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8540418..8579443
+FT                   /SIZE="39026"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8580128..8599468
+FT                   /SIZE="19341"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8646541..8646639
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             8700080..8700621
+FT                   /SIZE="542"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8765651..8766117
+FT                   /SIZE="467"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8833586..8839478
+FT                   /SIZE="5893"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             8983334..8983432
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             8993054..8993152
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9089027..9089125
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9137186..9137224
+FT                   /SIZE="39"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9138519..9148805
+FT                   /SIZE="10287"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9150164..9220576
+FT                   /SIZE="70413"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9221947..9379028
+FT                   /SIZE="157082"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9381803..9444178
+FT                   /SIZE="62376"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9444925..9448827
+FT                   /SIZE="3903"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9509737..9509835
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9625127..9625225
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9830650..9830748
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9831455..9831553
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9849930..9850425
+FT                   /SIZE="496"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             9902344..9902442
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             9923989..9924031
+FT                   /SIZE="43"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10010722..10010796
+FT                   /SIZE="75"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10011727..10011825
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             10130014..10195921
+FT                   /SIZE="65908"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10454009..10454107
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             10666480..10666712
+FT                   /SIZE="233"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10680568..10680720
+FT                   /SIZE="153"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10690110..10690208
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             10879369..10879467
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             10919052..10919290
+FT                   /SIZE="239"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10920560..10935633
+FT                   /SIZE="15074"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             10936205..10936303
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11011368..11011466
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11092234..11092332
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11104565..11104663
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11271535..11310947
+FT                   /SIZE="39413"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             11311162..11336283
+FT                   /SIZE="25122"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             11357033..11357131
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11372952..11373050
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11388425..11388490
+FT                   /SIZE="66"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             11570136..11570234
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             11651296..11653900
+FT                   /SIZE="2605"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             11906058..11906156
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12273563..12273661
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12414106..12414204
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12454108..12454206
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12545814..12545911
+FT                   /SIZE="98"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             12548470..12548489
+FT                   /SIZE="20"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             12578875..12578973
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12597779..12597877
+FT                   /SIZE="99"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             12693807..12693905
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             12778584..12778860
+FT                   /SIZE="277"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             12929919..12930314
+FT                   /SIZE="396"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             13009230..13009327
+FT                   /SIZE="98"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             13337047..13337145
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             13521267..13521365
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             13524617..13525120
+FT                   /SIZE="504"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             13525700..13525798
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             13659570..13660136
+FT                   /SIZE="567"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             13787151..13787249
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             13937884..13937982
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             14027632..14027638
+FT                   /SIZE="7"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             14072180..14072249
+FT                   /SIZE="70"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             14075257..14075355
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             14092397..14092400
+FT                   /SIZE="4"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             14198254..14198482
+FT                   /SIZE="229"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             14531578..14531676
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             14628085..14628093
+FT                   /SIZE="9"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             14850296..14850394
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             14873901..14887828
+FT                   /SIZE="13928"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15041209..15041307
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             15069936..15069952
+FT                   /SIZE="17"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15070971..15072193
+FT                   /SIZE="1223"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15072699..15072797
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             15218011..15218030
+FT                   /SIZE="20"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15259088..15259230
+FT                   /SIZE="143"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15431718..15431847
+FT                   /SIZE="130"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15432812..15432910
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             15561457..15561525
+FT                   /SIZE="69"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             15703604..15703702
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             15851337..15851435
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             16362371..16367777
+FT                   /SIZE="5407"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             16520350..16522054
+FT                   /SIZE="1705"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             16562500..16562598
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             16569317..16569415
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             16693521..16696419
+FT                   /SIZE="2899"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             16852905..16853003
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             16908523..16912495
+FT                   /SIZE="3973"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17018172..17085514
+FT                   /SIZE="67343"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17158534..17158634
+FT                   /SIZE="101"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17229027..17229125
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             17230317..17230403
+FT                   /SIZE="87"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17317263..17318227
+FT                   /SIZE="965"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17363479..17364397
+FT                   /SIZE="919"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17687266..17687364
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             17787814..17787876
+FT                   /SIZE="63"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             17871806..17871904
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             17872489..17872587
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             17920725..17920823
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             17997112..17997210
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18162792..18162890
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18287717..18287815
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18304705..18304771
+FT                   /SIZE="67"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             18527278..18527376
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18535353..18535451
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18535654..18535728
+FT                   /SIZE="75"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             18692248..18692346
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18804733..18804831
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             18848868..18850168
+FT                   /SIZE="1301"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             18964947..18964962
+FT                   /SIZE="16"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             19082630..19082728
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             19088395..19088493
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             19179291..19179389
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             19382767..19382956
+FT                   /SIZE="190"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             19651083..19651181
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             19986248..19986316
+FT                   /SIZE="69"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20010192..20010332
+FT                   /SIZE="141"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20019762..20019817
+FT                   /SIZE="56"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20043345..20043443
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             20088788..20088886
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             20099596..20099657
+FT                   /SIZE="62"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20361539..20361637
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             20418209..20436192
+FT                   /SIZE="17984"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20557407..20557482
+FT                   /SIZE="76"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20688159..20688313
+FT                   /SIZE="155"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20689999..20714705
+FT                   /SIZE="24707"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             20736019..20736117
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             20812980..20813078
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             20862262..20862820
+FT                   /SIZE="559"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21087119..21087217
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21094775..21094873
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21124736..21124818
+FT                   /SIZE="83"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21126262..21126360
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21137738..21137836
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21152721..21152819
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21289377..21289475
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21356857..21357029
+FT                   /SIZE="173"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21482469..21482773
+FT                   /SIZE="305"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21538854..21539026
+FT                   /SIZE="173"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21544051..21546219
+FT                   /SIZE="2169"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21625699..21656622
+FT                   /SIZE="30924"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21657135..21657233
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21657495..21821270
+FT                   /SIZE="163776"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21822226..21890179
+FT                   /SIZE="67954"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             21890711..21890809
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             21966406..21966504
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22032521..22032619
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22096798..22096896
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22205690..22266145
+FT                   /SIZE="60456"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             22276110..22276208
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22308918..22309016
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22331282..22331380
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22423970..22424068
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22549275..22549512
+FT                   /SIZE="238"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             22638434..22640316
+FT                   /SIZE="1883"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             22789829..22789965
+FT                   /SIZE="137"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             22886614..22886712
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22930999..22931097
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             22985511..22988984
+FT                   /SIZE="3474"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23001874..23001902
+FT                   /SIZE="29"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23180518..23180520
+FT                   /SIZE="3"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23184131..23184264
+FT                   /SIZE="134"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23269101..23269199
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             23495617..23495715
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             23507422..23507520
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             23603803..23603901
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             23686178..23686215
+FT                   /SIZE="38"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23698357..23698408
+FT                   /SIZE="52"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23735255..23735333
+FT                   /SIZE="79"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             23935564..23935662
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24201262..24201360
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24209043..24209141
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24313403..24313501
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24353802..24353900
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24596526..24596573
+FT                   /SIZE="48"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             24631099..24631197
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24650539..24650637
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24815797..24815895
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24823123..24823221
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             24823594..24855332
+FT                   /SIZE="31739"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             24857472..24922439
+FT                   /SIZE="64968"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             24924550..24929632
+FT                   /SIZE="5083"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             24935625..24935672
+FT                   /SIZE="48"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             24939671..24939769
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             25308303..25318371
+FT                   /SIZE="10069"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             25333395..25333493
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             25335263..25336095
+FT                   /SIZE="833"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             25336392..26707102
+FT                   /SIZE="1370711"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26714762..26733190
+FT                   /SIZE="18429"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26733401..26733552
+FT                   /SIZE="152"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26733881..26738651
+FT                   /SIZE="4771"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26745048..26752136
+FT                   /SIZE="7089"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26765785..26765883
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             26782773..26784644
+FT                   /SIZE="1872"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26798350..26800026
+FT                   /SIZE="1677"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26806007..26806105
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             26812887..26813038
+FT                   /SIZE="152"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             26867914..26871456
+FT                   /SIZE="3543"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             27000046..27000144
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27004799..27004883
+FT                   /SIZE="85"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             27043730..27043828
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27211889..27220219
+FT                   /SIZE="8331"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             27426633..27426731
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27459728..27459734
+FT                   /SIZE="7"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             27468877..27468975
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27502243..27502341
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27604980..27605078
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27835669..27835767
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27849373..27849471
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27857650..27857748
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27924365..27924463
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             27970505..27970540
+FT                   /SIZE="36"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28001527..28001625
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28271113..28318079
+FT                   /SIZE="46967"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28319580..28421355
+FT                   /SIZE="101776"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28422395..28422493
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28422862..28422960
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28512359..28512444
+FT                   /SIZE="86"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28749146..28749182
+FT                   /SIZE="37"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28777290..28777388
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28815735..28815905
+FT                   /SIZE="171"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             28864293..28864391
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28864681..28864779
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28975585..28975683
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             28976802..29011690
+FT                   /SIZE="34889"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             29012834..29086787
+FT                   /SIZE="73954"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             29089323..29089367
+FT                   /SIZE="45"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             29099755..29099853
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29102597..29102695
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29401197..29401295
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29550454..29550552
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29610726..29610884
+FT                   /SIZE="159"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             29614756..29614854
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29650322..29650420
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29652032..29652130
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29735464..29735562
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29799538..29799636
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29799898..29799996
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             29837263..29837308
+FT                   /SIZE="46"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             30005354..30005452
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             30218945..30219043
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             30313628..30315521
+FT                   /SIZE="1894"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             30676652..30676750
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             30743465..30743733
+FT                   /SIZE="269"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             30848161..30848259
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31046898..31047475
+FT                   /SIZE="578"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31048200..31179245
+FT                   /SIZE="131046"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31181812..31181910
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31183448..31183472
+FT                   /SIZE="25"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31213377..31213475
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31223079..31223177
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31636981..31637079
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31694612..31694710
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31778701..31788760
+FT                   /SIZE="10060"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31790926..31791761
+FT                   /SIZE="836"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31793841..31853680
+FT                   /SIZE="59840"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31900344..31900623
+FT                   /SIZE="280"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31938608..31938706
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             31995817..31995839
+FT                   /SIZE="23"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             31998928..31998963
+FT                   /SIZE="36"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32058923..32059051
+FT                   /SIZE="129"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32087764..32094021
+FT                   /SIZE="6258"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32269666..32269803
+FT                   /SIZE="138"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32284331..32286078
+FT                   /SIZE="1748"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32811153..32811552
+FT                   /SIZE="400"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             32828142..32828240
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             32958288..32958386
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             33062468..33062566
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             33464261..33464284
+FT                   /SIZE="24"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33465188..33465286
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             33471687..33471750
+FT                   /SIZE="64"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33472444..33472517
+FT                   /SIZE="74"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33478857..33479000
+FT                   /SIZE="144"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33560661..33560680
+FT                   /SIZE="20"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33595193..33595291
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             33920712..33929542
+FT                   /SIZE="8831"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33961405..33962280
+FT                   /SIZE="876"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             33975950..33976111
+FT                   /SIZE="162"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             34043711..34044088
+FT                   /SIZE="378"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             34058556..34105347
+FT                   /SIZE="46792"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             34229585..34229683
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34240509..34240607
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34241618..34241716
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34464993..34465091
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34489144..34492952
+FT                   /SIZE="3809"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             34541584..34541682
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34613279..34613377
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             34747911..34748009
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             35350162..35350260
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             35800571..35800669
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36148038..36204458
+FT                   /SIZE="56421"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             36284236..36284334
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36366957..36382485
+FT                   /SIZE="15529"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             36383911..36415563
+FT                   /SIZE="31653"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             36425078..36425176
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36543203..36543301
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36572251..36572349
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36579107..36579231
+FT                   /SIZE="125"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             36751164..36751262
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36886310..36886330
+FT                   /SIZE="21"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             36886578..36886676
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36889845..36889943
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36922987..36923085
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             36976848..36976946
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37084840..37084899
+FT                   /SIZE="60"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37232396..37232408
+FT                   /SIZE="13"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37244576..37244674
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37303104..37303202
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37305343..37305345
+FT                   /SIZE="3"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37380695..37510539
+FT                   /SIZE="129845"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37510999..37517338
+FT                   /SIZE="6340"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37539712..37539810
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37543657..37543755
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37543964..37639645
+FT                   /SIZE="95682"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             37657286..37657384
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             37690179..37690277
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38000993..38001091
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38023408..38023506
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38024211..38024273
+FT                   /SIZE="63"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38024492..38224224
+FT                   /SIZE="199733"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38225155..38226179
+FT                   /SIZE="1025"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38393875..38393973
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38405669..38406824
+FT                   /SIZE="1156"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38590421..38595747
+FT                   /SIZE="5327"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38635006..38635104
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38657780..38810572
+FT                   /SIZE="152793"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38873649..38873861
+FT                   /SIZE="213"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38915474..38915572
+FT                   /SIZE="99"
+FT                   /Overlapping="YES"
+FT                   /colour="9"
+FT   GAP             38946181..38956407
+FT                   /SIZE="10227"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38956827..38958321
+FT                   /SIZE="1495"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38959433..38960643
+FT                   /SIZE="1211"
+FT                   /Overlapping="NO"
+FT                   /colour="8"
+FT   GAP             38961463..38965028
+FT                   /SIZE="3566"
+FT                   /Overlapping="NO"
+FT                   /colour="8"

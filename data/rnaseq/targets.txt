@@ -1,0 +1,5 @@
+Lane	Treatment	Label
+1	Mycelia	Mycelia.1
+1	Mycelia	Mycelia.2
+2	Infection	Infection.1
+2	Infection	Infection.2
